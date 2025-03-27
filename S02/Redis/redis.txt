@@ -1,0 +1,12 @@
+HSET user:1 name "fulano1"
+HSET user:1 email "ful1@gmai.com"
+
+HSET user:2 name "fulano2"
+HSET user:2 email "ful2@gmail.com"
+
+HSET mensagem:1 hora "00h00"
+HSET mensagem:1 data "00/00/0000"
+HSET mensagem:1 content "cont1"
+HSET mensagem:1 remetente "fulano1"
+HSET mensagem:1 destinatario "fulano2"
+
