@@ -1,0 +1,23 @@
+Agregação:
+
+MATCH(n:Region) RETURN COUNT(*);
+MATCH(n) WHERE (n.location) IS NOT NULL RETURN DISTINCT COUNT(*);
+MATCH(n) RETURN DISTINCT COUNT(n.city);
+MATCH(n:Country) RETURN MAX(n.altitude);
+MATCH(n:Country) RETURN MIN(n.altitude);
+
+Funções matemáticas:
+
+MATCH(n:Airport) WHERE (n.city.name = 'Chicago') RETURN RAND (n.pagerank);
+MATCH(n:Airport) WHERE (n.city.name = 'Fort Lauderdale') RETURN RAND (n.pagerank, 0, 'CEILING');
+MATCH(n:Airport) WHERE (n.city.name = 'Dallas') RETURN RAND (n.pagerank, 0, 'FLOOR');
+MATCH(n:Airport) WHERE (n.city.name = 'San Jose') RETURN RAND (n.pagerank, 0, 'HALF_DOWN');
+MATCH(n:Airport) WHERE (n.city.name = 'Atlanta') RETURN RAND (n.pagerank, 0, 'HALF_UP');
+
+Funções string
+
+MATCH(n:Airport) WHERE (n.city.name = 'Chicago') RETURN LEFT (n.city.name, 4);
+MATCH(n:Airport) WHERE (n.city.name = 'Fort Lauderdale') RETURN RIGHT (n.city.name, 2);
+MATCH(n:Airport) WHERE (n.city.name = 'Dallas') RETURN TOUPPER (n.city.name);
+MATCH(n:Airport) WHERE (n.city.name = 'San Jose') RETURN TOLOWER (n.city.name);
+MATCH(n:Airport) WHERE (n.city.name = 'Atlanta') RETURN REVERSE(n.city.name);

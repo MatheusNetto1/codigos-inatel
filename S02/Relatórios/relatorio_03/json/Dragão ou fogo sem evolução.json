@@ -1,0 +1,250 @@
+[
+    {
+        "_id": {
+            "$oid": "66cd44adf73167010a07a406"
+        },
+        "id": 6,
+        "num": "006",
+        "name": "Charizard",
+        "img": "http://www.serebii.net/pokemongo/pokemon/006.png",
+        "type": [
+            "Fire",
+            "Flying"
+        ],
+        "height": "1.70 m",
+        "weight": "90.5 kg",
+        "candy": "Charmander Candy",
+        "egg": "Not in Eggs",
+        "spawn_chance": 0.0031,
+        "avg_spawns": 0.31,
+        "spawn_time": "13:34",
+        "multipliers": null,
+        "weaknesses": [
+            "Water",
+            "Electric",
+            "Rock"
+        ],
+        "prev_evolution": [
+            {
+                "num": "004",
+                "name": "Charmander"
+            },
+            {
+                "num": "005",
+                "name": "Charmeleon"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66cd44adf73167010a07a426"
+        },
+        "id": 38,
+        "num": "038",
+        "name": "Ninetales",
+        "img": "http://www.serebii.net/pokemongo/pokemon/038.png",
+        "type": [
+            "Fire"
+        ],
+        "height": "1.09 m",
+        "weight": "19.9 kg",
+        "candy": "Vulpix Candy",
+        "egg": "Not in Eggs",
+        "spawn_chance": 0.0077,
+        "avg_spawns": 0.77,
+        "spawn_time": "01:32",
+        "multipliers": null,
+        "weaknesses": [
+            "Water",
+            "Ground",
+            "Rock"
+        ],
+        "prev_evolution": [
+            {
+                "num": "037",
+                "name": "Vulpix"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66cd44adf73167010a07a43b"
+        },
+        "id": 59,
+        "num": "059",
+        "name": "Arcanine",
+        "img": "http://www.serebii.net/pokemongo/pokemon/059.png",
+        "type": [
+            "Fire"
+        ],
+        "height": "1.91 m",
+        "weight": "155.0 kg",
+        "candy": "Growlithe Candy",
+        "egg": "Not in Eggs",
+        "spawn_chance": 0.017,
+        "avg_spawns": 1.7,
+        "spawn_time": "03:11",
+        "multipliers": null,
+        "weaknesses": [
+            "Water",
+            "Ground",
+            "Rock"
+        ],
+        "prev_evolution": [
+            {
+                "num": "058",
+                "name": "Growlithe"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66cd44adf73167010a07a44e"
+        },
+        "id": 78,
+        "num": "078",
+        "name": "Rapidash",
+        "img": "http://www.serebii.net/pokemongo/pokemon/078.png",
+        "type": [
+            "Fire"
+        ],
+        "height": "1.70 m",
+        "weight": "95.0 kg",
+        "candy": "Ponyta Candy",
+        "egg": "Not in Eggs",
+        "spawn_chance": 0.011,
+        "avg_spawns": 1.1,
+        "spawn_time": "04:00",
+        "multipliers": null,
+        "weaknesses": [
+            "Water",
+            "Ground",
+            "Rock"
+        ],
+        "prev_evolution": [
+            {
+                "num": "077",
+                "name": "Ponyta"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66cd44adf73167010a07a47e"
+        },
+        "id": 126,
+        "num": "126",
+        "name": "Magmar",
+        "img": "http://www.serebii.net/pokemongo/pokemon/126.png",
+        "type": [
+            "Fire"
+        ],
+        "height": "1.30 m",
+        "weight": "44.5 kg",
+        "candy": "None",
+        "egg": "10 km",
+        "spawn_chance": 0.1,
+        "avg_spawns": 10,
+        "spawn_time": "20:36",
+        "multipliers": null,
+        "weaknesses": [
+            "Water",
+            "Ground",
+            "Rock"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66cd44adf73167010a07a488"
+        },
+        "id": 136,
+        "num": "136",
+        "name": "Flareon",
+        "img": "http://www.serebii.net/pokemongo/pokemon/136.png",
+        "type": [
+            "Fire"
+        ],
+        "height": "0.89 m",
+        "weight": "25.0 kg",
+        "candy": "Eevee Candy",
+        "egg": "Not in Eggs",
+        "spawn_chance": 0.017,
+        "avg_spawns": 1.7,
+        "spawn_time": "07:02",
+        "multipliers": null,
+        "weaknesses": [
+            "Water",
+            "Ground",
+            "Rock"
+        ],
+        "prev_evolution": [
+            {
+                "num": "133",
+                "name": "Eevee"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66cd44adf73167010a07a492"
+        },
+        "id": 146,
+        "num": "146",
+        "name": "Moltres",
+        "img": "http://www.serebii.net/pokemongo/pokemon/146.png",
+        "type": [
+            "Fire",
+            "Flying"
+        ],
+        "height": "2.01 m",
+        "weight": "60.0 kg",
+        "candy": "None",
+        "egg": "Not in Eggs",
+        "spawn_chance": 0,
+        "avg_spawns": 0,
+        "spawn_time": "N/A",
+        "multipliers": null,
+        "weaknesses": [
+            "Water",
+            "Electric",
+            "Rock"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66cd44adf73167010a07a495"
+        },
+        "id": 149,
+        "num": "149",
+        "name": "Dragonite",
+        "img": "http://www.serebii.net/pokemongo/pokemon/149.png",
+        "type": [
+            "Dragon",
+            "Flying"
+        ],
+        "height": "2.21 m",
+        "weight": "210.0 kg",
+        "candy": "Dratini Candy",
+        "egg": "Not in Eggs",
+        "spawn_chance": 0.0011,
+        "avg_spawns": 0.11,
+        "spawn_time": "23:38",
+        "multipliers": null,
+        "weaknesses": [
+            "Ice",
+            "Rock",
+            "Dragon",
+            "Fairy"
+        ],
+        "prev_evolution": [
+            {
+                "num": "147",
+                "name": "Dratini"
+            },
+            {
+                "num": "148",
+                "name": "Dragonair"
+            }
+        ]
+    }
+]

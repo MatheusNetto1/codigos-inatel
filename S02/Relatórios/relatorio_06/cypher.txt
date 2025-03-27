@@ -1,0 +1,26 @@
+-- QUESTÃO 1 --
+
+1.  MATCH (n) RETURN n;
+2.  MATCH (g:Game) WHERE g.ano > 2012 RETURN g;             // considerei apenas > pois está escrito que é APÓS 2012
+3.  MATCH (g:Game) WHERE g.genero = 'Terror' RETURN g;
+4.  MATCH (j:Jurado)-[r:JOGOU]->(g:Game) WHERE r.nota >= 7 RETURN g;
+
+-- QUESTÃO 2 --
+
+CREATE(g1:Game{titulo: 'To The Moon', genero: 'RPG', ano: 2011}),
+    (g2:Game{titulo: 'Valheim', genero: 'Sobrevivencia', ano: 2021}),
+    (g3:Game{titulo: 'Cyberpunk 2077', genero: 'RPG de Ação', ano: 2020}),
+
+    (j1:Jurado{nome: 'Matheus'}),
+    (j2:Jurado{nome: 'Fulano1'}),
+    (j3:Jurado{nome: 'Fulano2'}),
+
+    (j1)-[:JOGOU{nota: 10, horas: 13.8}]->(g1),
+    (j1)-[:JOGOU{nota: 9, horas: 142.2}]->(g2),
+    (j1)-[:JOGOU{nota: 10, horas: 339.3}]->(g3),
+
+    (j2)-[:JOGOU{nota: 8, horas: 5.4}]->(g1),
+    (j2)-[:JOGOU{nota: 10, horas: 20}]->(g3),
+
+    (j3)-[:JOGOU{nota: 3, horas: 1}]->(g2),
+    (j3)-[:JOGOU{nota: 9, horas: 100}]->(g3);
