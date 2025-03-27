@@ -8,7 +8,7 @@ C05 - Linguagens de Programação e Compiladores<br>
 C06 - Programação Orientada a Objetos<br>
 C07 - Banco de Dados I<br>
 C08 - Arquitetura de Computadores<br>
-C09 - Commputação Gráfica e Multimídia<br>
+C09 - Computação Gráfica e Multimídia<br>
 E09 - Microcontroladores e Microprocessadores<br>
 M06 - Cálculo Numérico<br>
 S01 - Paradigmas da Programação<br>
