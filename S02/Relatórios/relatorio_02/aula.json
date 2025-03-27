@@ -1,0 +1,19 @@
+{
+    "aulas": [
+        {
+            "professor": "Jonas",
+            "assunto": "Banco de Dados II",
+            "alunos": ["Lucas", "Maria", "Pedro", "Matheus"]
+        },
+        {
+            "professor": "Marcelo",
+            "assunto": "Paradigmas da Programação",
+            "alunos": ["Gabriel", "Maria", "Eduardo", "Matheus"]
+        },
+        {
+            "professor": "Mosca",
+            "assunto": "Sistemas Microcontrolados e Microprocessados",
+            "alunos": ["Samuel", "Maria", "Gabriel", "Matheus"]
+        }
+    ]
+}
