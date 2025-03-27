@@ -1,0 +1,42 @@
+CREATE(a1:Pessoa:Aposentado {nome:'Teresa', sexo:'F', idade:95, cidade:'RJ', bairro:'Ilha do Governador'}),
+    (a2:Pessoa:Aposentado {nome:'Leidi', sexo:'F', idade:76, cidade:'RJ', bairro:'Tijuca'}),
+    (t1:Pessoa:Dentista {nome:'Paula', sexo:'F', idade:43, cidade:'RJ', bairro:'Barra da Tijuca'}),
+    (t2:Pessoa:Juiz {nome:'Marcelo', sexo:'M', idade:56, cidade:'RJ', bairro:'Barra da Tijuca'}),
+    (m:Pessoa:Dentista {nome:'Elizabeth', sexo:'F', idade:53, cidade:'Santa Rita do Sapucai', bairro:'Centro'}),
+    (p:Pessoa:Advogado {nome:'Fernando', sexo:'M', idade:59, cidade:'RJ', bairro:'Ilha do Governador'}),
+    (e:Pessoa:Estudante {nome:'Matheus', sexo:'M', idade:23, cidade:'Santa Rita do Sapucai', bairro:'Centro'}),
+    (n:Pessoa:Estudante {nome:'Maria Eduarda', sexo:'F', idade:21, cidade:'RJ', bairro:'Tijuca'}),
+    (i1:Pessoa:GameDesigner {nome:'Fernanda', sexo:'F', idade:25, cidade:'RJ', bairro:'Tijuca'}),
+    (i2:Pessoa:Estudante {nome:'Eduarda', sexo:'F', idade:22, cidade:'Santa Rita do Sapucai', bairro:'Centro'}),
+    (d:Pet:Cachorro {nome:'Jujuba', raca:'Poodle', idade:7}),
+
+    (a1)-[:AVO_DE]->(e),
+    (a1)-[:AVO_DE]->(i1),
+    (a1)-[:AVO_DE]->(i2),
+    (a2)-[:AVO_DE]->(e),
+    (a2)-[:AVO_DE]->(i1),
+    (a2)-[:AVO_DE]->(i2),
+    (a1)-[:PAI_DE]->(p),
+    (a2)-[:PAI_DE]->(t1),
+    (a2)-[:PAI_DE]->(m),
+
+    (m)-[:PAI_DE]->(e),
+    (m)-[:PAI_DE]->(i1),
+    (m)-[:PAI_DE]->(i2),
+
+    (p)-[:PAI_DE]->(e),
+    (p)-[:PAI_DE]->(i1),
+    (p)-[:PAI_DE]->(i2),
+
+    (t1)-[:TIO_DE]->(e),
+    (t1)-[:TIO_DE]->(i1),
+    (t1)-[:TIO_DE]->(i2),
+    (t2)-[:TIO_DE]->(e),
+    (t2)-[:TIO_DE]->(i1),
+    (t2)-[:TIO_DE]->(i2),
+
+    (t1)-[:ESPOSO_DE{desde:'jul-1999'}]->(t2),
+    
+    (e)-[:NAMORADO_DE{desde:'jan-2020'}]->(n),
+
+    (i2)-[:DONO_DE{desde:'jan-2016'}]->(d)
