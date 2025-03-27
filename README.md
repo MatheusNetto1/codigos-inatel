@@ -7,7 +7,7 @@ C04 - Algoritmos e Estruturas de Dados III<br>
 C05 - Linguagens de Programação e Compiladores<br>
 C06 - Programação Orientada a Objetos<br>
 C07 - Banco de Dados I<br>
-C08 - Arquitetura de Coputadores<br>
+C08 - Arquitetura de Computadores<br>
 C09 - Commputação Gráfica e Multimídia<br>
 E09 - Microcontroladores e Microprocessadores<br>
 M06 - Cálculo Numérico<br>
