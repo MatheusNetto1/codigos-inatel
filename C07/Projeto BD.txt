@@ -1,0 +1,18 @@
+A ideia inicial de tema é algo sobre O Senhor dos Anéis.
+
+Embaixo estão algumas ideias de tabelas para o projeto
+
+Tabela 1
+Nome	Raça	Idade	Peso	Altura	Ocupação
+
+Tabela 2
+Cidade	Reino
+
+Tabela 3
+Arma	Armadura	Item mágico
+
+
+Alunos: 
+	Matheus Botelho Sampaio Netto 299 GES
+	Eduardo Pereira Bento 402 GES
+	Gabriel Soares Oliveira Sousa 298 GES
