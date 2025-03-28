@@ -1,0 +1,16 @@
+++ Produto ++
+Morango
+4.0
+Comida
+++ Produto ++
+Sabão em pó
+10.0
+Higiene
+++ Produto ++
+Lâmpada
+8.0
+Decoração
+++ Produto ++
+Banana
+3.0
+Comida

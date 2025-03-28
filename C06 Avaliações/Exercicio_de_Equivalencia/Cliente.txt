@@ -1,0 +1,15 @@
+++ Cliente ++
+Cliente1
+111111111
+endereco1
+1
+++ Cliente ++
+Cliente2
+222222222
+endereco2
+2
+++ Cliente ++
+Cliente3
+333333333
+endereco3
+3
